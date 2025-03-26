@@ -1,0 +1,141 @@
+.contenedor{
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 150px 100px 250px 250px 250px 250px 80px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc enc enc enc enc'
+    'P1 P1 P2 P2 P3 P3'
+    'M1 M2 M3 M4 M5 M6'
+    'S1 S1 S1 S1 S2 S2'
+    'S3 S3 S4 S4 S4 S4'
+    'p5 p5 p5 p5 p5 p51'
+    'F F F F F F '
+    ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+    overflow: hidden;
+    border: 20px;
+  
+  }
+
+  li {
+    float: left;
+  }
+ 
+  li a {
+    display: block;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: rgb(10, 3, 62);
+  }
+  
+  li a:hover {
+    background-color: #ffffff;
+    transform: scale(1.3);
+  }
+.Encabezado{
+    background-color: rgb(2, 212, 254);
+    color: rgb(23, 102, 171);
+    grid-area: enc;
+}
+
+.Parte1{
+    background-color: rgb(2, 46, 25);
+    color: rgb(8, 198, 18);
+    grid-area: P1;
+}
+
+.Parte2{
+    background-color: rgb(226, 255, 5);
+    color: rgb(83, 90, 96);
+    grid-area: P2;
+}
+
+.Parte3{
+    background-color: rgb(146, 78, 5);
+    color: rgb(23, 102, 171);
+    grid-area: P3;
+}
+
+.Main1{
+    background-color: rgb(43, 45, 45);
+    color: rgb(23, 102, 171);
+    grid-area: M1;
+}
+
+.Main2{
+    background-color: rgb(197, 125, 9);
+    color: rgb(23, 102, 171);
+    grid-area: M2;
+}
+.Main3{
+    background-color: rgb(43, 45, 45);
+    color: rgb(23, 102, 171);
+    grid-area: M3;
+}
+
+.Main4{
+    background-color: rgb(197, 125, 9);
+    color: rgb(23, 102, 171);
+    grid-area: M4;
+}
+.Main5{
+    background-color: rgb(43, 45, 45);
+    color: rgb(23, 102, 171);
+    grid-area: M5;
+}
+
+.Main6{
+    background-color: rgb(197, 125, 9);
+    color: rgb(23, 102, 171);
+    grid-area: M6;
+}
+
+.Section1{
+    background-color: rgb(3, 130, 130);
+    color: rgb(23, 102, 171);
+    grid-area: S1;
+}
+
+.Section2{
+    background-color: rgba(22, 213, 9, 0.198);
+    color: rgb(23, 102, 171);
+    grid-area: S2;
+}
+
+.parte41{
+    background-color: rgba(22, 213, 9, 0.198);
+    color: rgb(23, 102, 171);
+    grid-area: S3;
+}
+
+.parte42{
+    background-color: rgb(3, 130, 130);
+    color: rgb(23, 102, 171);
+    grid-area: S4;
+}
+
+.parte5{
+    background-color: rgb(4, 128, 6);
+    color: rgb(8, 119, 6);
+    grid-area: p5;
+}
+
+.parte51{
+    background-color: rgb(6, 2, 112);
+    color: rgb(23, 102, 171);
+    grid-area: p51;
+}
+
+.Footer{
+    background-color: rgb(32, 32, 27);
+    color: rgb(23, 102, 171);
+    grid-area: F;
+}

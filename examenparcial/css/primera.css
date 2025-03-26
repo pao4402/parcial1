@@ -1,0 +1,97 @@
+.contenedor{
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: 100px 100px 550px 550px 80px;
+    display: grid;
+    grid-template-areas: 
+    'enc enc enc enc enc enc'
+    'P1 P1 P1 P1 P1 P1'
+    'M1 M1 M1 M2 M2 M2'
+    'S1 S1 S1 S2 S2 S2'
+    'F F F F F F '
+    ;
+}
+
+ul {
+    list-style-type: none;
+    margin: 30;
+    padding: 30;
+    overflow: hidden;
+    border: 20px;
+  
+  }
+
+  li {
+    float: left;
+  }
+ 
+  li a {
+    display: block;
+    text-align: center;
+    padding: 35px 35px;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    color: rgb(10, 3, 62);
+  }
+  
+  li a:hover {
+    background-color: #f2ea0822;
+    transform: scale(1.3);
+  }
+
+.Encabezado{
+    background-color: rgb(244, 246, 247);
+    color: rgb(23, 102, 171);
+    grid-area: enc;
+}
+
+.Parte1{
+    background-color: rgba(6, 230, 122, 0.137);
+    color: rgb(8, 198, 18);
+    grid-area: P1;
+    text-align: center;
+}
+
+
+.Main1{
+    background-color: rgba(124, 6, 105, 0.276);
+    color: rgb(4, 106, 45);
+    grid-area: M1;
+    text-align: center;
+    align-content: center;
+}
+
+.Main2{
+    background-color: rgba(212, 5, 191, 0.195);
+    color: rgb(23, 102, 171);
+    grid-area: M2;
+}
+
+
+.Main6{
+    background-color: rgb(197, 125, 9);
+    color: rgb(23, 102, 171);
+    grid-area: M6;
+}
+
+.Section1{
+    background-color: rgba(126, 25, 92, 0.17);
+    color: rgb(14, 14, 14);
+    grid-area: S1;
+    text-align: center;
+}
+
+.Section2{
+    background-color: rgba(184, 46, 152, 0.173);
+    color: rgb(23, 102, 171);
+    grid-area: S2;
+    text-align: center;
+}
+
+
+.Footer{
+    background-color: rgb(32, 32, 27);
+    color: rgb(254, 255, 255);
+    grid-area: F;
+    text-align: center;
+}
